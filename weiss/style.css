@@ -1,0 +1,360 @@
+@font-face {
+  font-family: "DINPro";
+  src: url("./fonts/DINPro-Medium_13936.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DINPro";
+}
+.container {
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-height: 40px;
+  max-width: 1216px;
+  margin: 64px auto;
+  align-items: center;
+}
+.header__logo:hover{
+  cursor: pointer;
+}
+.nav__links {
+  display: flex;
+  list-style: none;
+}
+.nav__links__item {
+  margin-right: 40px;
+}
+.nav__links__item a:hover {
+  color: #ff9900;
+  border-bottom: 2px solid #ff9900;
+  transition: 0.1s;
+}
+.nav__links__item a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.orange__btn {
+  background-color: #ff9900;
+  justify-content: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 146px;
+  height: 40px;
+  cursor: pointer;
+}
+.hero__orange__btn {
+  background-color: #ff9900;
+  justify-content: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 36px;
+  width: 206px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.kontakt__btn span {
+  margin-left: 16px;
+  position: absolute;
+}
+.kontakt__btn span svg {
+  position: absolute;
+}
+.wrapper {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.hero__wrapper {
+  display: flex;
+  margin-top: 96px;
+  justify-content: space-between;
+}
+.hero__left__site {
+  flex-basis: 35%;
+}
+.fab__icon {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  cursor: pointer;
+}
+.fab__icon:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.hero__right__site {
+  position: relative;
+  flex-basis: 40%;
+}
+.hero__background {
+  width: 593px;
+  height: 750px;
+  background: #c4c4c4;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #f7f8fa;
+}
+.hero__image {
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #f7f8fa;
+}
+.hero__type {
+  margin-top: 100px;
+  color: #929a9f;
+  font-size: 14px;
+}
+.hero__title {
+  margin-top: 15px;
+  color: #263640;
+  font-size: 32px;
+  line-height: 45px;
+}
+.hero__desc {
+  margin-top: 15px;
+  color: #929a9f;
+}
+.hero__left__site .orange__btn {
+  margin-top: 38px;
+}
+.unsere__wrapper {
+  background-color: #f5f8fa;
+  margin-top: -178px;
+}
+.wissenswertes__block {
+  margin-top: -178px;
+}
+.unsere__cards {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.unsere__card {
+  flex-basis: 300px;
+}
+.top__info {
+  margin-top: 178px;
+}
+.unsere__top__title {
+  font-size: 24px;
+  line-height: 44px;
+}
+.unsere__top__desc {
+  margin-top: 16px;
+  max-width: 520px;
+  font-size: 16px;
+  color: #929a9f;
+  line-height: 28px;
+}
+.card__photo {
+  cursor: pointer;
+}
+.card__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.card__desc {
+  margin-top: 24px;
+  color: #929a9f;
+}
+.card__about {
+  margin-top: 24px;
+  display: flex;
+  color: #ff9900;
+  cursor: pointer;
+}
+.diplom__frame {
+  margin-top: 168px;
+  width: 1009px;
+  height: 584px;
+  background: #263640;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2), -50px 100px 0px #f5f8fa;
+}
+.diplom__frame__inner {
+  padding: 98px;
+  width: 570px;
+}
+.diplom__block__name {
+  color: #929a9f;
+}
+.diplom__title {
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 24px;
+}
+.diplom__desc {
+  color: white;
+  margin-top: 24px;
+}
+.diplom__separator {
+  margin-top: 56px;
+  opacity: 0.2;
+}
+.diplom__about {
+  margin-top: 24px;
+  color: white;
+  position: relative;
+}
+.diplom__about span {
+  margin-left: 16px;
+  top: 2px;
+  position: absolute;
+}
+.diplom__image {
+  position: absolute;
+  right: -207px;
+  top: 95px;
+}
+.diplom__frame {
+  position: relative;
+}
+.wissemswertes__container {
+  margin-top: 453px;
+}
+.left__content__title {
+  font-size: 32px;
+  line-height: 45px;
+}
+.wissemswertes__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.left__content__desc {
+  max-width: 488px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 16px;
+}
+.orange__btn span {
+  margin-left: 16px;
+}
+.gallery__block__name {
+  color: #929a9f;
+  margin-top: 80px;
+  font-weight: bold;
+}
+.wissemswertes__container .unsere__gallery {
+  margin-top: 32px;
+}
+.card__link {
+  color: #ff9900;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.card__link span {
+  position: absolute;
+  top: 1px;
+  right: 151px;
+}
+.footer {
+  background-color: #263640;
+}
+.bewird__wrapper {
+  background-color: #f5f8fa;
+  margin-top: 323px;
+}
+.bewird__container {
+  margin-bottom: 126px;
+}
+.footer__ineer {
+  margin-top: 85px;
+  color: white;
+}
+.after__separator {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.footer__impressum {
+  margin-right: 24px;
+  color: white;
+  text-decoration: none;
+}
+.footer__datenschutz{
+  margin-right: 24px;
+  color: white;
+  text-decoration: none;
+}
+.footer__items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.left__column {
+  width: 155px;
+}
+.right__column {
+  width: 137px;
+  margin-left: 145px;
+}
+.right__content {
+  display: flex;
+  position: relative;
+}
+.bewird__subname {
+  line-height: 20px;
+  color: #929a9f;
+  margin-top: 101px;
+}
+.bewird__title {
+  margin-top: 16px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+}
+.bewird__desc {
+  margin-top: 24px;
+  width: 327px;
+}
+
+.karriere__btn {
+  color: white;
+  background-color: #ff9900;
+  width: 135px;
+  height: 40px;
+  margin-top: 32px;
+  font-weight: 700;
+  border: none;
+  position: relative;
+}
+.karriere__btn:hover{
+  cursor: pointer;
+}
+.karriere__btn span {
+  margin-left: 16px;
+  top: 12px;
+}
+.wrapper__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bewird__image {
+  position: absolute;
+  right: 0;
+  top: -123px;
+}
